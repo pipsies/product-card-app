@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+
+.card {
+  background-color: none;
+  display: flex;
+  top: 50%;
+  bottom: 50%;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+}
+
+#photo {
+width: 250px;
+height: 400px;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+
+.about {
+  width: 250px;
+  height: 400px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: hsl(0, 0%, 100%);
+  padding-left: 30px;
+
+  
+}
+
+h1 {
+  color: hsl(212, 21%, 14%);
+  font-family: 'Fraunces', serif;
+  font-weight: 700px;
+  line-height: 30px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 5px;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: hsl(228, 12%, 48%);
+  padding-top: 20px;
+}
+
+button {
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: none;
+  width: 220px;
+  height: 45px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  border-style: none;
+  justify-content: center;
+  justify-items: center;
+  
+}
+
+ .product-info {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
+  width: 220px;
+  margin-bottom: 20px;
+  margin-left: 0;
+  
+}
+
+.new-price {
+  display: inline-block;
+  font-family: 'Fraunces', serif;
+  color: hsl(158, 36%, 37%);
+  font-family: 'Fraunces', serif;
+  font-size: 28px;
+  margin-bottom: 20px;
+
+  
+  
+}
+
+.originalprice {
+  display: inline-block;
+  color: hsl(158, 36%, 37%);
+  font-family: 'Fraunces', serif;
+  font-size: 8px;
+  
+ 
+  
+}
+
+
+.new-price, p{
+  color: hsl(158, 36%, 37%);
+  font-family: 'Fraunces', serif;
+  margin: 0;
+  
+}
+
+.originalprice, p {
+  color: hsl(158, 36%, 37%);
+  font-family: 'Fraunces', serif;
+  margin-left: 0px;
+  margin-right: 30px;
+  
+}
+
+
+.cart-icon {
+  padding-right: 5px;
+}
+
+
+div.price {
+  margin-bottom: 20px;
+}
+
+.original-price-txt {
+  text-decoration: line-through;
+}
+
+svg {
+  vertical-align: middle;
+  margin-right: 5px;
+}
