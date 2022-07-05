@@ -19,7 +19,7 @@ function card() {
         <p>$149.99</p>
       </div>
       <div className='originalprice'>
-        <p  className='original-price-txt'>169.99</p>
+        <p  className='original-price-txt'>$169.99</p>
       </div>
       </div>
 
